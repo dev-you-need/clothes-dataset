@@ -6,7 +6,7 @@ First, you have to download images, this requires a script download.py.
 
 Some EDA and photos you can found [this](https://github.com/deerslab/clothes-dataset/blob/master/eda.ipynb) 
 
-#####Data description:
+##### Data description:
 
 | Column   | Description                                                                                                                |
 |----------|----------------------------------------------------------------------------------------------------------------------------|
