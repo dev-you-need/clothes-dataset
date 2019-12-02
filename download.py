@@ -34,7 +34,7 @@ def download_image(pair):
 def loader():
     if not os.path.isdir(path_to):
         os.makedirs(path_to, exist_ok=True)
-    df = pd.read_csv("ali_clothes_clean.csv")
+    df = pd.read_csv("clothes-dataset.csv")
     pool = multiprocessing.Pool(processes=8)
     iterator = pool.imap_unordered(download_image, df.iterrows())
 
